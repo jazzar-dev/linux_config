@@ -20,6 +20,9 @@ export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 
+# fzf setup
+export PATH="/home/jazzar/.fzf/bin:$PATH"
+
 # Source/load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
